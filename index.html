@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Structural Patterns</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Structural Patterns</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Portada</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">Información</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Patrones</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Diagramas</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#desarrollador">Desarrollador</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Structural Patterns</h1>
+        <h3 class="mb-5">
+          <em>"Patrones estructurales"</em>
+        </h3>
+        <a class="btn btn-success btn-xl js-scroll-trigger" href="#about"><i class="fa fa-code"></i> Conocer más!</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Patrones Estructurales!</h2><br>
+            <img src="img/logo.png" class="img-fluid logo" alt="">
+            <p class="lead mb-5 text-justify">
+                Los patrones estructurales se enfocan en como las clases y objetos se componen para formar estructuras mayores, 
+                los patrones estructurales describen como las estructuras compuestas por clases crecen para crear nuevas 
+                funcionalidades de manera de agregar a la estructura flexibilidad y que la misma pueda cambiar en tiempo de 
+                ejecución lo cual es imposible con una composición de clases estáticas.<br><br>
+
+                Los patrones de diseño son soluciones avanzadas orientadas a objetos para problemas de software comunes. 
+                Los patrones son sobre diseños reutilizables e interacciones de objetos. Cada patrón tiene un nombre y se 
+                convierte en parte de un vocabulario cuando se analizan soluciones de diseño complejas.
+              <a href="https://www.dofactory.com/javascript/design-patterns"> doFactory</a>!</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services"><i class="fa fa-code"></i> Conocer patrones!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="text-secondary mb-5">Patrones Estructurales ES6!</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal1">
+            <i class="fas fa-chevron-circle-right"></i> Adapter</button>
+            <p class="text-faded mb-0">Relacionar interfaces de diferentes clases!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal2">
+            <i class="fas fa-chevron-circle-right"></i> Bridge</button>
+            <p class="text-faded mb-0">Separa la interfaz de un objeto de su implementación!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal3">
+            <i class="fas fa-chevron-circle-right"></i> Composite</button>
+            <p class="text-faded mb-0">Una estructura de árbol de objetos simples y compuestos!</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal4">
+            <i class="fas fa-chevron-circle-right"></i> Decorator</button>
+            <p class="text-faded mb-0">Añadir responsabilidades a los objetos dinámicamente!</p>
+          </div>
+        </div><br>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-screen-smartphone"></i>
+              </span>
+              <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal5">
+              <i class="fas fa-chevron-circle-right"></i> Facade</button>
+              <p class="text-faded mb-0">Una sola clase que representa un subsistema completo!</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-screen-smartphone"></i>
+              </span>
+              <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal6">
+              <i class="fas fa-chevron-circle-right"></i> Flyweight</button>
+              <p class="text-faded mb-0">Una instancia de grano fino utilizada para compartir de manera eficiente!</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
+              <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-screen-smartphone"></i>
+              </span>
+              <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal7">
+              <i class="fas fa-chevron-circle-right"></i> Proxy</button>
+              <p class="text-faded mb-0">Un objeto que representa otro objeto!</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Welcome to
+          <em>your</em>
+          next website!</h2>
+        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portafolio</h3>
+          <h2 class="mb-5">Diagrama Patrones Estructurales</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-0">Adapter</h1>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/adapter.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-0">Bridge</h1>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/bridge.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-0">Composite</h1>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/composite.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-0">Decorator</h1>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/decorator.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-0">Flyweight</h1>
+                </span>
+              </span>
+              <center><img class="img-fluid" src="img/flyweight.png" alt=""></center>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-0">Facade</h1>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/facade.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-0">Proxy</h1>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/proxy.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white" id="desarrollador">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="mb-4">Universidad de El Salvador</h1>
+            <h1 class="mb-4">Facultad Multidisciplinaria Oriental</h1>
+            <h1 class="mb-4">Departamento de Ingeniería y Arquitectura</h1>
+          </div>
+          <div class="col-md-6">
+            <br><br>
+            <h4 class="text-center"><strong>Cátedra:</strong> Ingeniería de Software.</h4>
+            <h4 class="text-center"><strong>Docente:</strong> Ing. Milagro Alicia de Reyes.</h4>
+            <h4 class="text-center"><strong>Instructor:</strong> Bach. Raúl M.Portillo Muñoz.</h4><br>
+            <a href="#" class="btn btn-xl btn-dark mr-4 btn-block">Descargarme!</a>
+          </div>
+          <div class="col-md-6">
+            <a href="https://github.com/Ral1996"><img src="img/git.png" class="img-fluid imgGit" alt="Desarrollador repositorio!"></div></a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="#">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; RED - PortillO's 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Implementaciones de modales - patrones -->
+    <!-- Modal #1 Adapter -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Patrón Adapter</h5>
+              <button type="button" class="Cerrar!" data-dismiss="modal" aria-label="Cerrar!">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="text-justify">
+                  Convertir la interfaz de una clase en otra interfaz que los clientes esperan. El adaptador permite que las clases 
+                  trabajen juntas y que no podrían hacerlo de otra manera debido a interfaces incompatibles.<br>
+                  El patrón del adaptador traduce una interfaz (las propiedades y los métodos de un objeto) a otra. Los adaptadores 
+                  permiten que los componentes de programación trabajen juntos, que de otro modo no lo harían debido a interfaces no
+                  coincidentes. El patrón del adaptador también se conoce como el patrón de envoltura.<br><br>
+
+                  Un escenario donde los adaptadores se usan comúnmente es cuando los nuevos componentes deben integrarse y trabajar 
+                  juntos con los componentes existentes en la aplicación.Otro escenario es la refactorización en la que las partes del 
+                  programa se reescriben con una interfaz mejorada, pero el código antiguo aún espera la interfaz original.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cerrar!</button>
+              <button type="button" class="btn btn-primary" onclick="run(); return false"><i class="fa fa-check-circle"></i> Probar patrón!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal #2 Bridge -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Patrón Bridge</h5>
+              <button type="button" class="Cerrar!" data-dismiss="modal" aria-label="Cerrar!">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cerrar!</button>
+              <button type="button" class="btn btn-primary"><i class="fa fa-check-circle"></i> Probar patrón!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal #3 Composite -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Patrón Composite</h5>
+              <button type="button" class="Cerrar!" data-dismiss="modal" aria-label="Cerrar!">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cerrar!</button>
+              <button type="button" class="btn btn-primary"><i class="fa fa-check-circle"></i> Probar patrón!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal #4 Decorator -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Patrón Decorator</h5>
+              <button type="button" class="Cerrar!" data-dismiss="modal" aria-label="Cerrar!">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cerrar!</button>
+              <button type="button" class="btn btn-primary"><i class="fa fa-check-circle"></i> Probar patrón!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal #5 Facade -->
+    <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Patrón Facade</h5>
+              <button type="button" class="Cerrar!" data-dismiss="modal" aria-label="Cerrar!">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cerrar!</button>
+              <button type="button" class="btn btn-primary"><i class="fa fa-check-circle"></i> Probar patrón!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal #6 Flyweight -->
+    <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Patrón Flyweight</h5>
+              <button type="button" class="Cerrar!" data-dismiss="modal" aria-label="Cerrar!">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cerrar!</button>
+              <button type="button" class="btn btn-primary"><i class="fa fa-check-circle"></i> Probar patrón!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal #7 Proxy -->
+    <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Patrón Proxy</h5>
+              <button type="button" class="Cerrar!" data-dismiss="modal" aria-label="Cerrar!">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cerrar!</button>
+              <button type="button" class="btn btn-primary"><i class="fa fa-check-circle"></i> Probar patrón!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+
+    <!-- Agregando dirección patrones JS -->
+    <script src="patternsJS/AdapterES6.js"></script>
+
+  </body>
+
+</html>
